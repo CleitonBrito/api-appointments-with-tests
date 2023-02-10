@@ -3,7 +3,7 @@ import { areIntervalsOverlapping } from 'date-fns'
 import { Appointment } from "../../entities/appointment";
 import { AppointmentsRepository } from "../appointments-repository";
 
-export class inMomoryAppointmentsRepository implements AppointmentsRepository {
+export class inMemoryAppointmentsRepository implements AppointmentsRepository {
     public items: Appointment[] = []
 
     async create(appointment: Appointment): Promise<void> {
