@@ -2,7 +2,7 @@
 <br />
 
 <p align="justify">
-Estou estudando como desenvolver api's com testes sem implementar inicialmente um banco de dados. Foi desenvolvida em NodeJs e os testes foram realizados com o framework <a href="https://vitest.dev/">vitest</a>
+Estou estudando como desenvolver api's com testes sem implementar inicialmente um banco de dados. Foi desenvolvida em NodeJs e os testes foram realizados com o framework <a href="https://vitest.dev/" target="_blank">vitest.</a>
 </p>
 
 <hr />
@@ -32,7 +32,7 @@ Estou estudando como desenvolver api's com testes sem implementar inicialmente u
 <span>4 - Execute-o:</span>
 
 ```bash
-    $ npm run vitest
+    $ npm run test
 ```
 
 <br />
